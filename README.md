@@ -13,7 +13,7 @@ O desafio foi implementado usando o javascript como linguagem para implementaç�
 2. Abra a pasta e inicialise nela o git bash
 
 3. Clone o repositório usando o comando abaixo no git bash:
-$ git clone https://github.com/kleitonpaulino/Desafio-Tecnico-1-Escribo.git
+git clone [https://github.com/kleitonpaulino/Desafio-Tecnico-1-Escribo.git](https://github.com/kleitonpaulino/Desafio-Tecnico-1-Escribo.git)
 
 4. Acesse a pasta do projeto: "Desafio-Tecnico-1-Escribo"
 
