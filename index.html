@@ -3,11 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Desafio Técnico 1</title>
 </head>
+
 <body>
-    <h1>Desafio Técnico 1</h1>
+    <header>
+        <h1>DESAFIO TÉCNICO I</h1>
+    </header>
+
+    <main>
+        <div>
+            <h2>Calculo do somatório dos multiplos de 3 e 5 menores que um inteiro positivo</h2>
+            <label for="inserirNumero">Digite um número inteiro e positivo:</label>
+            <input type="number" id="inserirNumero" placeholder="Digite aqui">
+            <button id="btCalcular" onclick="calcularSomatorioMultiplos()">Calcular</button>
+            <p id="resultado"></p>
+            <p id="multiplos"></p>
+            <textarea id="resultadoMultiplos" cols="30" rows="3"></textarea>
+        </div>
+    </main>
+
+    <footer>
+        <address>
+            Criação e Desenvolvimento: <a id= "email" href="mailto:Kleitonpaulinodasilva@gmail.com">Kleiton Paulino</a> &copy; 2023
+        </address>
+    </footer>
+
     <script src="./JS/script.js"></script>
 </body>
+
 </html>

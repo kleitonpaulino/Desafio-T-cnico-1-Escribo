@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin:0;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+a#email {
+     text-decoration: none; 
+     transition: 0.5s;
+}
+
+header, footer {
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: black;
+    color: white;
+    height: 10vh;
+}
+
+
+main {
+    background-image: url("../assets/img/plano-de-fundo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    display: flex;
+}
+
+div {
+    background-color: aliceblue;
+    width: 90vh;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+button#btCalcular {
+    background-color: #2596be;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    width: 16vh;
+    height: 8vh;
+}
